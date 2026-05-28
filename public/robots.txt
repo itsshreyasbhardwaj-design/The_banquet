@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block access to build artifacts if ever accidentally exposed
+Disallow: /_next/
+Disallow: /api/
+
+Sitemap: https://thebanquetabcorp.com/sitemap.xml

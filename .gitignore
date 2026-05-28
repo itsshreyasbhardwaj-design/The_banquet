@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+/out/
+
+# Production build
+/build
+/dist
+
+# Environment files — NEVER commit real secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env.development
+# Allow the example file (contains only placeholders)
+!.env.example
+
+# Vercel deployment metadata (contains project/org IDs)
+.vercel/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sensitive files — never commit
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
