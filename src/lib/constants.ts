@@ -89,7 +89,7 @@ export const VENUES = [
       '/images/venues/1-stage.png',
       '/images/venues/1-staircase.png',
     ],
-    features: ['The Entire Banquet — Exclusively Yours', '600–700 Guest Capacity', 'All 3 Floors + Rooftop Culinary Zone', '300-Car Valet · Private Suites · Full Estate'],
+    features: ['The Entire Banquet — Exclusively Yours', '600–700 Guest Capacity', 'All 3 Floors + Rooftop Culinary Zone', '200-Car Valet · Private Suites · Full Estate'],
     accentColor: '#9E2A2A',
   },
 ] as const
@@ -107,8 +107,8 @@ export const FEATURES = [
   },
   {
     icon: 'Car',
-    title: '300-Car Managed Valet',
-    description: 'Complimentary managed valet parking for 300 vehicles — your guests arrive with ease.',
+    title: '200-Car Managed Valet',
+    description: 'Complimentary managed valet parking for 200 vehicles — your guests arrive with ease.',
   },
   {
     icon: 'BedDouble',
@@ -119,11 +119,6 @@ export const FEATURES = [
     icon: 'Thermometer',
     title: '50-Ton Climate Control',
     description: 'Industrial-grade 50-ton AC system ensuring perfect temperature for every guest, every season.',
-  },
-  {
-    icon: 'Zap',
-    title: '100% Power Backup',
-    description: 'Uninterrupted power. Your celebration never pauses — not for a single second.',
   },
   {
     icon: 'Heart',

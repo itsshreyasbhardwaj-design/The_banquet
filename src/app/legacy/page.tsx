@@ -3,14 +3,14 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
-  Wind, ChefHat, Car, BedDouble, Thermometer, Zap, Heart, Star,
+  Wind, ChefHat, Car, BedDouble, Thermometer, Heart, Star,
   Phone, MessageCircle,
 } from 'lucide-react'
 import { BRAND, FEATURES, getWhatsAppLink } from '@/lib/constants'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const IconMap: Record<string, React.ComponentType<any>> = {
-  Wind, ChefHat, Car, BedDouble, Thermometer, Zap, Heart, Star,
+  Wind, ChefHat, Car, BedDouble, Thermometer, Heart, Star,
 }
 
 export default function LegacyPage() {

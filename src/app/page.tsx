@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
 import {
   Phone, MessageCircle, ArrowRight, Wind, ChefHat, Car, BedDouble,
-  Thermometer, Zap, Heart, Star, ChevronDown,
+  Thermometer, Heart, Star, ChevronDown,
 } from 'lucide-react'
 import { BRAND, HERO_SLIDES, VENUES, FEATURES, getWhatsAppLink } from '@/lib/constants'
 
@@ -40,7 +40,7 @@ function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
 /* ─── Icon Map ─────────────────────────────────────────────────────── */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const IconMap: Record<string, React.ComponentType<any>> = {
-  Wind, ChefHat, Car, BedDouble, Thermometer, Zap, Heart, Star,
+  Wind, ChefHat, Car, BedDouble, Thermometer, Heart, Star,
 }
 
 /* ─── Hero Slide Component ─────────────────────────────────────────── */
