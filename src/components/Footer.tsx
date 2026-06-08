@@ -132,10 +132,10 @@ export default function Footer() {
                 </div>
                 <span className="font-sans text-[10px] tracking-widest uppercase text-ivory/40">WhatsApp</span>
               </a>
-              <a href="https://www.google.com/maps/place/The+Banquet+by+A.B.Corp/@22.5204,88.3538,17z" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-80 transition-opacity">
+              <a href="https://g.page/r/CeLcmY5IZq5eEBM/review" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 hover:opacity-80 transition-opacity">
                 <div className="w-20 h-20 bg-white p-1.5 relative">
                   <Image
-                    src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FThe%2BBanquet%2Bby%2BA.B.Corp"
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https%3A%2F%2Fg.page%2Fr%2FCeLcmY5IZq5eEBM%2Freview"
                     alt="Google Reviews QR Code"
                     width={80}
                     height={80}

@@ -153,7 +153,7 @@ export default function ConnectPage() {
                     {[
                       { src: '/images/qr/instagram.jpg', label: 'Instagram', sub: '@thebanquetkolkata', href: 'https://www.instagram.com/thebanquetkolkata/' },
                       { src: 'https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=https%3A%2F%2Fwa.me%2F919831824727', label: 'WhatsApp', sub: 'Instant Message', href: 'https://wa.me/919831824727' },
-                      { src: 'https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2FThe%2BBanquet%2Bby%2BA.B.Corp', label: 'Google Reviews', sub: '4.5★ · 679 Reviews', href: 'https://www.google.com/maps/place/The+Banquet+by+A.B.Corp/@22.5204,88.3538,17z' },
+                      { src: 'https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=https%3A%2F%2Fg.page%2Fr%2FCeLcmY5IZq5eEBM%2Freview', label: 'Google Reviews', sub: '4.5★ · 679 Reviews', href: 'https://g.page/r/CeLcmY5IZq5eEBM/review' },
                     ].map((qr) => (
                       <a key={qr.label} href={qr.href} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 p-5 border border-warm-grey/20 hover:border-gold/20 transition-colors duration-400">
                         <div className="w-24 h-24 bg-white p-2 relative">
